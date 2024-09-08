@@ -1,0 +1,42 @@
+.body {
+  width: 300px;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.body:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  text-align: center;
+}
+
+.title {
+  margin-left: 15px;
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.cart {
+  background-color: black;
+  color: white;
+  width: 298px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.price {
+  text-align: center;
+}
+.category {
+  text-align: center;
+}

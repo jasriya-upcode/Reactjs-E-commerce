@@ -1,0 +1,19 @@
+.body{
+  width: 100%;
+}
+.search{
+    width: 700px;
+  margin-right: 70px;  
+} 
+.image{
+    color: white;
+}
+.cart{
+   display: flex;
+   background-color: black;
+   color: white;
+   text-decoration: none;
+}
+.nav-item > .nav-link.active{
+  color: green;
+}
