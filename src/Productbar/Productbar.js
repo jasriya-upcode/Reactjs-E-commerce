@@ -193,6 +193,7 @@ function ProductBar() {
           <a href="/">Explore all...</a>
         </div>
       </div>
+      
           <div className={styles.imagediv}>
               <img src={image}/>
          </div>

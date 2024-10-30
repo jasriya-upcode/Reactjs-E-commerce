@@ -8,7 +8,7 @@ function Productcard(props) {
   function onADCClick() {
     props.onAddTwoCartClik(prod);
   }
-  //
+  
   function modifiedProductTitle(title) {
     const titleLenth = 22;
     if (title.length > titleLenth) {

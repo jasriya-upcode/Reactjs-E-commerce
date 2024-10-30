@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import Product from "./product";
 import style from "./homepage.module.css";
+
 function ProductDetails() {
   const params = useParams();
   const prodId = params.ProductId;
